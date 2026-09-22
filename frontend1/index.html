@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tokenomics Copilot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body class="dark bg-[#08080B] text-white" style="background-color: #08080B; color: #FAFAFA; margin: 0; min-height: 100vh;">
+    <div id="root"></div>
+    <script>
+        window.addEventListener('error', function(e) {
+            var banner = document.getElementById('debug-error-banner');
+            if (!banner) {
+                banner = document.createElement('div');
+                banner.id = 'debug-error-banner';
+                banner.style = 'position:fixed;top:24px;left:24px;right:24px;z-index:999999;background:#1a0808;border:2px solid #ef4444;border-radius:16px;padding:24px;color:#fca5a5;font-family:ui-monospace,monospace;font-size:13px;line-height:1.5;box-shadow:0 20px 40px rgba(0,0,0,0.8);word-break:break-all;';
+                document.body.appendChild(banner);
+            }
+            banner.innerHTML = '<strong style="color:#ffffff;font-size:16px;">⚠️ Script Error Detected:</strong><br><br>' + 
+                '<strong>Message:</strong> ' + (e.message || 'Unknown error') + '<br>' +
+                '<strong>Source:</strong> ' + (e.filename || 'unknown') + ':' + e.lineno + ':' + e.colno + '<br><br>' +
+                '<pre style="margin:0;white-space:pre-wrap;color:#f87171;">' + (e.error && e.error.stack ? e.error.stack : '') + '</pre>';
+        });
+        window.addEventListener('unhandledrejection', function(e) {
+            var banner = document.getElementById('debug-error-banner');
+            if (!banner) {
+                banner = document.createElement('div');
+                banner.id = 'debug-error-banner';
+                banner.style = 'position:fixed;top:24px;left:24px;right:24px;z-index:999999;background:#1a0808;border:2px solid #ef4444;border-radius:16px;padding:24px;color:#fca5a5;font-family:ui-monospace,monospace;font-size:13px;line-height:1.5;box-shadow:0 20px 40px rgba(0,0,0,0.8);word-break:break-all;';
+                document.body.appendChild(banner);
+            }
+            banner.innerHTML = '<strong style="color:#ffffff;font-size:16px;">⚠️ Unhandled Promise Rejection:</strong><br><br>' + 
+                '<strong>Reason:</strong> ' + (e.reason ? (e.reason.message || e.reason) : 'Unknown') + '<br><br>' +
+                '<pre style="margin:0;white-space:pre-wrap;color:#f87171;">' + (e.reason && e.reason.stack ? e.reason.stack : '') + '</pre>';
+        });
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
