@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tokenomics Copilot — Brand Identity & Logo Showcase</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #08080B;
+      --card-bg: #0F1118;
+      --border: rgba(255, 255, 255, 0.08);
+      --accent: #6366F1;
+      --accent-glow: rgba(99, 102, 241, 0.35);
+      --text: #F3F4F6;
+      --text-muted: #9CA3AF;
+      --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 48px 24px;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 50% 0%, rgba(99, 102, 241, 0.15) 0%, transparent 60%),
+        radial-gradient(circle at 100% 50%, rgba(6, 182, 212, 0.08) 0%, transparent 50%);
+    }
+
+    .container {
+      max-width: 960px;
+      width: 100%;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      font-size: 12px;
+      font-weight: 600;
+      color: #A5B4FC;
+      margin-bottom: 16px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .badge-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #10B981;
+      box-shadow: 0 0 8px #10B981;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 12px;
+      background: linear-gradient(180deg, #FFFFFF 0%, #A5B4FC 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p.subtitle {
+      color: var(--text-muted);
+      font-size: 16px;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    .hero-stage {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 56px 32px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 
+        0 20px 50px rgba(0, 0, 0, 0.6),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+      margin-bottom: 48px;
+    }
+
+    .hero-stage::before {
+      content: '';
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .logo-frame {
+      position: relative;
+      z-index: 1;
+      width: 256px;
+      height: 256px;
+      cursor: pointer;
+      transition: transform 160ms var(--ease-out);
+    }
+
+    .logo-frame:hover {
+      transform: scale(1.03);
+    }
+
+    .logo-frame:active {
+      transform: scale(0.97);
+    }
+
+    .logo-frame img, .logo-frame svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+      filter: drop-shadow(0 16px 32px rgba(0,0,0,0.8));
+    }
+
+    .action-bar {
+      margin-top: 36px;
+      display: flex;
+      gap: 14px;
+      z-index: 1;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border-radius: 14px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      transition: transform 140ms var(--ease-out), background-color 140ms ease, box-shadow 140ms ease;
+    }
+
+    .btn:active {
+      transform: scale(0.97);
+    }
+
+    .btn-primary {
+      background: #FFFFFF;
+      color: #08080B;
+      border: 1px solid rgba(255, 255, 255, 0.9);
+      box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+    }
+
+    .btn-primary:hover {
+      background: #F3F4F6;
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.08);
+      color: #FFFFFF;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.12);
+    }
+
+    .scale-matrix {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      width: 100%;
+      margin-bottom: 48px;
+    }
+
+    .matrix-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    }
+
+    .matrix-card .preview-box {
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 16px;
+    }
+
+    .matrix-card h3 {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .matrix-card span {
+      font-size: 12px;
+      color: var(--text-muted);
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .philosophy-grid {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 32px;
+      width: 100%;
+      margin-bottom: 48px;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    }
+
+    .philosophy-grid h2 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .philosophy-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .p-item {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .p-item h4 {
+      font-size: 15px;
+      font-weight: 600;
+      color: #A5B4FC;
+    }
+
+    .p-item p {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
+    canvas {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="badge">
+        <span class="badge-dot"></span>
+        Apple Design & Emil Kowalski Principles
+      </div>
+      <h1>Tokenomics Copilot</h1>
+      <p class="subtitle">Official Brand Identity & Vector Assets for Indonesia Web3 Hackathon 2026 (BNB Chain Track)</p>
+    </header>
+
+    <div class="hero-stage">
+      <div class="logo-frame" title="Click or Press to feel tactile spring feedback (scale: 0.97)">
+        <img id="mainLogoImg" src="logo.svg" alt="Tokenomics Copilot Master Logo">
+      </div>
+
+      <div class="action-bar">
+        <button class="btn btn-primary" onclick="downloadPNG(512)">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Master PNG (512×512)
+        </button>
+        <a class="btn btn-secondary" href="logo.svg" download="tokenomics-copilot-logo.svg">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          Download Vector SVG
+        </a>
+      </div>
+    </div>
+
+    <!-- Multi-Scale Optical Matrix -->
+    <div class="scale-matrix">
+      <div class="matrix-card">
+        <div class="preview-box">
+          <img src="logo.svg" style="width: 24px; height: 24px;">
+        </div>
+        <h3>Favicon & Tab</h3>
+        <span>24 × 24 px</span>
+      </div>
+
+      <div class="matrix-card">
+        <div class="preview-box">
+          <img src="logo.svg" style="width: 36px; height: 36px;">
+        </div>
+        <h3>Dynamic Island</h3>
+        <span>36 × 36 px</span>
+      </div>
+
+      <div class="matrix-card">
+        <div class="preview-box">
+          <img src="logo.svg" style="width: 64px; height: 64px;">
+        </div>
+        <h3>Portal Submission</h3>
+        <span>64 × 64 px</span>
+      </div>
+
+      <div class="matrix-card">
+        <div class="preview-box">
+          <img src="logo.svg" style="width: 96px; height: 96px;">
+        </div>
+        <h3>App Icon / Retina</h3>
+        <span>96 × 96 px</span>
+      </div>
+    </div>
+
+    <!-- Philosophy Section -->
+    <div class="philosophy-grid">
+      <h2>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+        Architectural Design Philosophy
+      </h2>
+      <div class="philosophy-items">
+        <div class="p-item">
+          <h4>1. Apple Continuous Curvature (G2 Squircle)</h4>
+          <p>Outer substrate follows Apple's superellipse algorithm, removing abrupt corner transitions to create organic continuity with modern high-DPI displays.</p>
+        </div>
+        <div class="p-item">
+          <h4>2. Emil Kowalski Specular Light Catch</h4>
+          <p>Tactile 1px top-edge hairline catches simulated incident light, anchoring the icon in physical space rather than flat digital pixels.</p>
+        </div>
+        <div class="p-item">
+          <h4>3. Faceted Security Armor</h4>
+          <p>Dual-tone obsidian armor facets symbolize on-chain protection against rugpulls, sudden mints, and stealth liquidity drains on BNB Chain.</p>
+        </div>
+        <div class="p-item">
+          <h4>4. Gemini AI Neural Nexus</h4>
+          <p>Precision 4-point neural starburst and constellation graph represent real-time Viem RPC telemetry scanning smart contract bytecode.</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      Tokenomics Copilot • Indonesia Web3 Hackathon 2026 • BNB Chain Track
+    </footer>
+  </div>
+
+  <canvas id="exportCanvas" width="512" height="512"></canvas>
+
+  <script>
+    function downloadPNG(size) {
+      const canvas = document.getElementById('exportCanvas');
+      const ctx = canvas.getContext('2d');
+      const img = new Image();
+      
+      img.onload = function() {
+        ctx.clearRect(0, 0, size, size);
+        ctx.drawImage(img, 0, 0, size, size);
+        
+        const a = document.createElement('a');
+        a.download = `tokenomics-copilot-logo-${size}x${size}.png`;
+        a.href = canvas.toDataURL('image/png');
+        a.click();
+      };
+      img.src = 'logo.svg';
+    }
+  </script>
+</body>
+</html>
