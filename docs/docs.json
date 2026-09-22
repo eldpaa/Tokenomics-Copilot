@@ -17,23 +17,25 @@
     "name": "GitHub",
     "url": "https://github.com/eldpaa/Tokenomics-Copilot"
   },
-  "navigation": [
-    {
-      "group": "Getting Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "user-flow"
-      ]
-    },
-    {
-      "group": "On-Chain Architecture",
-      "pages": [
-        "smart-contract",
-        "architecture"
-      ]
-    }
-  ],
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "introduction",
+          "quickstart",
+          "user-flow"
+        ]
+      },
+      {
+        "group": "On-Chain Architecture",
+        "pages": [
+          "smart-contract",
+          "architecture"
+        ]
+      }
+    ]
+  },
   "footerSocials": {
     "github": "https://github.com/eldpaa/Tokenomics-Copilot"
   }
