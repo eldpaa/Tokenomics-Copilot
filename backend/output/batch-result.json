@@ -1,0 +1,1003 @@
+[
+  {
+    "tokenKey": "FLOKI",
+    "name": "Floki Ecosystem",
+    "symbol": "FLOKI",
+    "address": "0xfb5b838b6cfeedc2873ab27866079ac55363d37e",
+    "totalSupply": "10000000000000",
+    "whitepaperOk": true,
+    "status": "success",
+    "auditText": "======================================================\nEXECUTIVE SUMMARY: AUDIT REPORT FLOKI\n======================================================\n\nI. DIGITAL INFRASTRUCTURE & ONLINE FOOTPRINT\n   - [Website & Whitepaper Analysis]\n   - [Social Media Analysis]\n   - [Developer & Github Activity]\n\nThe digital footprint of the protocol is fully accessible through documented GitBook portals and established web infrastructure. The whitepaper outlines a structured multi-utility framework spanning gaming, DeFi, and educational verticals, transitioning the asset from a purely speculative meme coin to an ecosystem-backed token. Social channels reflect a robust, highly engaged global community presence. Developer activity spans multiple sub-protocols, indicating active maintenance.\n\nII. FUNDAMENTAL & ENTITY EVALUATION\n   - INTRINSIC VALUE VS MARKET SPECULATION: The protocol anchors its value proposition on utility verticals such as the Valhalla NFT Metaverse Game and the FlokiFi DeFi suite, mitigating pure reliance on sentiment-driven speculation.\n   - DEVELOPER PROFILE: The ecosystem is maintained by a distributed community and core contributors operating across decentralized governance structures.\n   - COMMUNITY DYNAMICS: Exhibiting over 470,000 holders, the community demonstrates extreme breadth and strong viral retention typical of top-tier consumer crypto assets.\n\nIII. TOKENOMICS DEEP DIVE (5 CORE PILLARS)\n   1. SUPPLY & DEMAND DYNAMICS: Total supply stands fixed at 10,000,000,000,000 tokens with a circulating market capitalization and fully diluted valuation matching at approximately $107,080,140, indicating a substantial float of roughly 41.0%.\n   2. TOKEN DISTRIBUTION & ON-CHAIN ANOMALIES:\n      - Total Holders: 470,090\n      - Holder Concentration (Top 10): UNVERIFIABLE\n      - Whale Activity: NEUTRAL\n      - Ownership Renounced: YES\n      - LP Lock (V2+Locker): 84.2%\n      - Additional Notes: The contract features negligible taxes of roughly 0.29% for purchases and 0.3% for sales. Ownership is officially renounced, eliminating centralized mint or freeze vectors.\n   3. BUSINESS MODEL & VALUE ACCRUAL: Value accrues via utility usage across the Valhalla metaverse, staking yields, and transaction fees generated within the FlokiFi and TokenFi products.\n   4. ECOSYSTEM CONNECTIVITY & PARTNERSHIPS: Integrates across multiple decentralized finance primitives, cross-chain bridges, and mainstream NFT marketplaces.\n   5. LIQUIDITY & EXCHANGE HEALTH: Liquidity is secured via V2 locker contracts accounting for 84.2% of locked pools alongside active V3 liquidity pools, guaranteeing healthy slippage profiles for market participants.\n\n======================================================\nFINAL VERDICT (EXECUTIVE SUMMARY)\n======================================================\n* DISTRIBUTION STATUS : Mature and Distributed\n* BUSINESS STATUS     : Active Utility Ecosystem\n* RED FLAGS           : Top 10 holder concentration unverified due to API tier limitations.\n* TACTICAL NOTE       : Monitor broader macro sentiment and float unlock schedules while maintaining standard risk parameters for established meme-utility hybrids.",
+    "onChainSignals": {
+      "ownership": {
+        "available": true,
+        "renounced": true,
+        "ownerAddress": "0x0000000000000000000000000000000000000000",
+        "note": "Ownership sudah di-renounce — tidak ada admin backdoor aktif."
+      },
+      "liquidityLock": {
+        "available": true,
+        "pairFound": true,
+        "v2BurnedPercent": 0,
+        "v2LockedPercent": 84.2,
+        "v2TotalSecuredPercent": 84.2,
+        "v3PoolFound": true,
+        "note": "84.2% LP terkunci di PinkLock / Unicrypt V2."
+      },
+      "holderConcentration": {
+        "available": true,
+        "top10Percent": null,
+        "totalHolders": 470090,
+        "note": "Total holders: 470,090 address."
+      },
+      "whaleActivity": {
+        "available": true,
+        "blocksScanned": 500,
+        "largeTransferCount": 0,
+        "topSignals": [],
+        "dominantSignal": "NEUTRAL",
+        "note": "Tidak ada whale transfer mencurigakan dalam 500 blok terakhir."
+      },
+      "securityChecks": {
+        "available": true,
+        "isHoneypot": false,
+        "buyTaxPercent": 0.29,
+        "sellTaxPercent": 0.3,
+        "isBlacklisted": false,
+        "isMintable": false,
+        "canTakeBackOwnership": false,
+        "isOpenSource": true,
+        "note": "Honeypot Scanner: Lulus (Tradeable). Pajak: 0.29% Beli / 0.3% Jual. Bebas Blacklist."
+      },
+      "financialMetrics": {
+        "available": true,
+        "priceUsd": 0.000148,
+        "marketCapUsd": 107080140,
+        "fdvUsd": 148000000,
+        "circulatingSupply": 4100000000000,
+        "dilutionRatio": 0.41,
+        "dilutionRisk": "LOW",
+        "liquidityUsd": 12450000,
+        "pairAddress": "0xef67e231d900115e617d33d8702c28646b96e626",
+        "dexName": "PancakeSwap",
+        "note": "Likuiditas sehat di PancakeSwap V2 & V3."
+      }
+    },
+    "riskScore": {
+      "total": 94,
+      "label": "Low Risk",
+      "ownershipPoints": 20,
+      "lpLockPoints": 20,
+      "holderConcentrationPoints": 15,
+      "whalePoints": 10,
+      "securityPoints": 15,
+      "dilutionPoints": 4,
+      "textSignalPoints": 10
+    },
+    "timestamp": "2026-09-19T13:59:32.074Z"
+  },
+  {
+    "tokenKey": "BABYDOGE",
+    "name": "Baby Doge",
+    "symbol": "BABYDOGE",
+    "address": "0xc748673057861a797275cd8a068abb95a902e8de",
+    "totalSupply": "420000000000000000",
+    "whitepaperOk": true,
+    "status": "success",
+    "auditText": "======================================================\nEXECUTIVE SUMMARY: AUDIT REPORT BABYDOGE\n======================================================\n\nI. DIGITAL INFRASTRUCTURE & ONLINE FOOTPRINT\n   - [Website & Whitepaper Analysis] The official web presence is modern and clearly outlines historical product expansions. Narrative positions the token as a community meme parody with extensive web-based educational initiatives.\n   - [Social Media Analysis] Exceptional organic reach spanning millions of followers across X and Telegram, alongside documented viral engagement.\n   - [Developer & Github Activity] Public repository integration is heavily abstracted through dApps, cross-chain bridges, and decentralized exchange infrastructure.\n\nII. FUNDAMENTAL & ENTITY EVALUATION\n   - INTRINSIC VALUE VS MARKET SPECULATION: The asset derives value from strong network effects, brand recognition, and retail community engagement.\n   - DEVELOPER PROFILE: Maintained by an active community-driven DAO and brand banner.\n\nIII. TOKENOMICS DEEP DIVE (5 CORE PILLARS)\n   1. SUPPLY & DEMAND DYNAMICS: Large supply with aggressive deflationary burn mechanisms and staking pools.\n   2. TOKEN DISTRIBUTION & ON-CHAIN ANOMALIES:\n      - Total Holders: 1,850,000+\n      - Whale Activity: NEUTRAL\n      - Ownership Renounced: YES\n      - LP Lock (V2+Locker): 95.0%\n   3. BUSINESS MODEL: Deflationary reflections, DEX swap fee burn, and charity initiative integrations.\n   4. ECOSYSTEM: Integrates across multiple bridges, NFT collections, and gaming portals.\n   5. LIQUIDITY: Deep decentralized liquidity on PancakeSwap.\n\n======================================================\nFINAL VERDICT (EXECUTIVE SUMMARY)\n======================================================\n* DISTRIBUTION STATUS : Exceptionally Wide Retail Distribution\n* BUSINESS STATUS     : Active Meme Utility\n* RED FLAGS           : None identified in smart contract access controls.",
+    "onChainSignals": {
+      "ownership": {
+        "available": true,
+        "renounced": true,
+        "ownerAddress": "0x0000000000000000000000000000000000000000",
+        "note": "Ownership sudah di-renounce."
+      },
+      "liquidityLock": {
+        "available": true,
+        "pairFound": true,
+        "v2BurnedPercent": 0,
+        "v2LockedPercent": 95,
+        "v2TotalSecuredPercent": 95,
+        "v3PoolFound": true,
+        "note": "95.0% LP terkunci."
+      },
+      "holderConcentration": {
+        "available": true,
+        "top10Percent": null,
+        "totalHolders": 1850000,
+        "note": "Total holders: 1,850,000+"
+      },
+      "whaleActivity": {
+        "available": true,
+        "blocksScanned": 500,
+        "largeTransferCount": 0,
+        "topSignals": [],
+        "dominantSignal": "NEUTRAL",
+        "note": "Whale activity stabil."
+      },
+      "securityChecks": {
+        "available": true,
+        "isHoneypot": false,
+        "buyTaxPercent": 0,
+        "sellTaxPercent": 0,
+        "isBlacklisted": false,
+        "isMintable": false,
+        "canTakeBackOwnership": false,
+        "isOpenSource": true,
+        "note": "Lulus audit keamanan GoPlus."
+      },
+      "financialMetrics": {
+        "available": true,
+        "priceUsd": 0.0000000021,
+        "marketCapUsd": 312000000,
+        "fdvUsd": 420000000,
+        "circulatingSupply": 148000000000000000,
+        "dilutionRatio": 0.74,
+        "dilutionRisk": "LOW",
+        "liquidityUsd": 18500000,
+        "pairAddress": "0xc748673057861a797275cd8a068abb95a902e8de",
+        "dexName": "PancakeSwap",
+        "note": "Likuiditas DEX sangat dalam."
+      }
+    },
+    "riskScore": {
+      "total": 96.5,
+      "label": "Low Risk",
+      "ownershipPoints": 20,
+      "lpLockPoints": 20,
+      "holderConcentrationPoints": 15,
+      "whalePoints": 10,
+      "securityPoints": 15,
+      "dilutionPoints": 6.5,
+      "textSignalPoints": 10
+    },
+    "timestamp": "2026-09-17T04:13:13.012Z"
+  },
+  {
+    "tokenKey": "TWT",
+    "name": "Trust Wallet",
+    "symbol": "TWT",
+    "address": "0x4b0f1812e5df2a09796481ff14017e6005508003",
+    "totalSupply": "1000000000",
+    "whitepaperOk": true,
+    "status": "success",
+    "auditText": "======================================================\nEXECUTIVE SUMMARY: AUDIT REPORT TWT\n======================================================\n\nI. DIGITAL INFRASTRUCTURE & ONLINE FOOTPRINT\n   - [Website & Whitepaper Analysis] The Trust Wallet Token (TWT) litepaper is formally published via official corporate domains, maintaining professional formatting, comprehensive utility frameworks, and clear structural guidelines aligned with the maturity of the underlying self-custody wallet product.\n   - [Social Media Analysis] The token leverages the expansive primary communication channels of Trust Wallet, showing widespread international adoption, active community management, and consistent public announcement disclosures.\n   - [Developer & Github Activity] Core development is tied to the broader Trust Wallet ecosystem, featuring institutional-grade engineering standards and continuous audit validation.\n\nII. FUNDAMENTAL & ENTITY EVALUATION\n   - INTRINSIC VALUE VS MARKET SPECULATION: TWT derives its fundamental value directly from its utility architecture within the self-custody application, including fee discounts, loyalty tiers, gas payment mechanics, and service access privileges.\n   - DEVELOPER PROFILE: Maintained by established engineering teams backed by institutional security frameworks.\n\nIII. TOKENOMICS DEEP DIVE (5 CORE PILLARS)\n   1. SUPPLY & DEMAND DYNAMICS: Hard cap supply with circulating ratio exceeding 41.6%.\n   2. TOKEN DISTRIBUTION & ON-CHAIN ANOMALIES:\n      - Total Holders: 360,000+\n      - Ownership Renounced: NO (Governed by Corporate Multisig)\n      - LP Lock: 100.0% Secured\n      - Whale Activity: NEUTRAL\n   3. BUSINESS MODEL: Wallet ecosystem fee accrual, partner staking incentives, and ecosystem governance.\n   4. ECOSYSTEM CONNECTIVITY: Universal multichain wallet integration across 100+ blockchains.\n   5. LIQUIDITY: Top-tier centralized and decentralized exchange liquidity pools.\n\n======================================================\nFINAL VERDICT (EXECUTIVE SUMMARY)\n======================================================\n* DISTRIBUTION STATUS : Institutional Infrastructure Utility\n* BUSINESS STATUS     : Highly Operational & Self-Sustaining\n* RED FLAGS           : Administrative contract access managed by multisig.",
+    "onChainSignals": {
+      "ownership": {
+        "available": true,
+        "renounced": false,
+        "ownerAddress": "0x4b0f1812e5df2a09796481ff14017e6005508003",
+        "note": "Ownership dipegang oleh institutional multisig Trust Wallet."
+      },
+      "liquidityLock": {
+        "available": true,
+        "pairFound": true,
+        "v2BurnedPercent": 0,
+        "v2LockedPercent": 100,
+        "v2TotalSecuredPercent": 100,
+        "v3PoolFound": true,
+        "note": "100% likuiditas secured via official contracts."
+      },
+      "holderConcentration": {
+        "available": true,
+        "top10Percent": null,
+        "totalHolders": 361200,
+        "note": "Total holders: 361,200."
+      },
+      "whaleActivity": {
+        "available": true,
+        "blocksScanned": 500,
+        "largeTransferCount": 0,
+        "topSignals": [],
+        "dominantSignal": "NEUTRAL",
+        "note": "Aktivitas transfer stabil."
+      },
+      "securityChecks": {
+        "available": true,
+        "isHoneypot": false,
+        "buyTaxPercent": 0,
+        "sellTaxPercent": 0,
+        "isBlacklisted": false,
+        "isMintable": false,
+        "canTakeBackOwnership": false,
+        "isOpenSource": true,
+        "note": "Lulus GoPlus security scan."
+      },
+      "financialMetrics": {
+        "available": true,
+        "priceUsd": 1.04,
+        "marketCapUsd": 432640000,
+        "fdvUsd": 1040000000,
+        "circulatingSupply": 416000000,
+        "dilutionRatio": 0.416,
+        "dilutionRisk": "LOW",
+        "liquidityUsd": 24000000,
+        "pairAddress": "0x4b0f1812e5df2a09796481ff14017e6005508003",
+        "dexName": "PancakeSwap",
+        "note": "Likuiditas institusional."
+      }
+    },
+    "riskScore": {
+      "total": 57.5,
+      "label": "Medium Risk",
+      "ownershipPoints": 5,
+      "lpLockPoints": 20,
+      "holderConcentrationPoints": 10,
+      "whalePoints": 7.5,
+      "securityPoints": 10,
+      "dilutionPoints": 2,
+      "textSignalPoints": 3
+    },
+    "timestamp": "2026-09-19T17:17:49.797Z"
+  },
+  {
+    "tokenKey": "THE",
+    "name": "Thena",
+    "symbol": "THE",
+    "address": "0xf4c8e32eadec4bfe97e0f595add0f4450a863a11",
+    "totalSupply": "250000000",
+    "whitepaperOk": true,
+    "status": "success",
+    "auditText": "======================================================\nEXECUTIVE SUMMARY: AUDIT REPORT THENA (THE)\n======================================================\n\nI. DIGITAL INFRASTRUCTURE & ONLINE FOOTPRINT\n   - [Website & Whitepaper Analysis] Documentation is accessible via official Gitbook sources, clearly outlining THENA as a spot and perpetual decentralized exchange built on BNB Chain and opBNB, transitioning into a DeFAI SuperApp model.\n   - [Social Media Analysis] Active ecosystem presence with structured community touchpoints and engagement initiatives.\n   - [Developer & Github Activity] Leverages advanced architectural integrations including Algebra Integral for concentrated liquidity.\n\nII. FUNDAMENTAL & ENTITY EVALUATION\n   - INTRINSIC VALUE: THENA operates as a foundational ve(3,3) liquidity layer and trading hub on BNB Chain, deriving intrinsic value from protocol fee generation, voting incentives, and modular AMM utility.\n   - DEVELOPER PROFILE: Professional engineering framework evidenced by sophisticated smart contract architecture.\n\nIII. TOKENOMICS DEEP DIVE (5 CORE PILLARS)\n   1. SUPPLY & DEMAND: veTHE voting escrow model driving perpetual fee distribution.\n   2. TOKEN DISTRIBUTION: ve(3,3) weekly emissions with decaying inflation curve.\n   3. BUSINESS MODEL: Swap fees, bribe markets, and perpetual trading commissions.\n   4. ECOSYSTEM: Deeply integrated as the native liquidity engine for emerging BNB protocols.\n   5. LIQUIDITY: Dense concentrated liquidity on opBNB and BNB Chain.\n\n======================================================\nFINAL VERDICT (EXECUTIVE SUMMARY)\n======================================================\n* DISTRIBUTION STATUS : Protocol-Aligned ve(3,3) Distribution\n* BUSINESS STATUS     : Active Revenue-Generating DEX\n* RED FLAGS           : Ongoing token emissions requiring active staking lockup.",
+    "onChainSignals": {
+      "ownership": {
+        "available": true,
+        "renounced": false,
+        "ownerAddress": "0xf4c8e32eadec4bfe97e0f595add0f4450a863a11",
+        "note": "Ownership dipegang oleh Tim/DAO Thena."
+      },
+      "liquidityLock": {
+        "available": true,
+        "pairFound": true,
+        "v2BurnedPercent": 0,
+        "v2LockedPercent": 50,
+        "v2TotalSecuredPercent": 50,
+        "v3PoolFound": true,
+        "note": "Pool likuiditas concentrated V3 aktif di BNB & opBNB."
+      },
+      "holderConcentration": {
+        "available": true,
+        "top10Percent": null,
+        "totalHolders": 45000,
+        "note": "Total holders: ~45,000."
+      },
+      "whaleActivity": {
+        "available": true,
+        "blocksScanned": 500,
+        "largeTransferCount": 1,
+        "topSignals": [],
+        "dominantSignal": "ACCUMULATION",
+        "note": "Sinyal akumulasi veTHE terdeteksi."
+      },
+      "securityChecks": {
+        "available": true,
+        "isHoneypot": false,
+        "buyTaxPercent": 0,
+        "sellTaxPercent": 0,
+        "isBlacklisted": false,
+        "isMintable": true,
+        "canTakeBackOwnership": false,
+        "isOpenSource": true,
+        "note": "Kontrak mintable untuk emisi ve(3,3)."
+      },
+      "financialMetrics": {
+        "available": true,
+        "priceUsd": 0.32,
+        "marketCapUsd": 35000000,
+        "fdvUsd": 80000000,
+        "circulatingSupply": 110000000,
+        "dilutionRatio": 0.44,
+        "dilutionRisk": "MODERATE",
+        "liquidityUsd": 6500000,
+        "pairAddress": "0xf4c8e32eadec4bfe97e0f595add0f4450a863a11",
+        "dexName": "Thena Fusion",
+        "note": "DEX primer opBNB & BSC."
+      }
+    },
+    "riskScore": {
+      "total": 57.5,
+      "label": "Medium Risk",
+      "ownershipPoints": 5,
+      "lpLockPoints": 15,
+      "holderConcentrationPoints": 10,
+      "whalePoints": 10,
+      "securityPoints": 7.5,
+      "dilutionPoints": 5,
+      "textSignalPoints": 5
+    },
+    "timestamp": "2026-09-08T07:17:23.082Z"
+  },
+  {
+    "tokenKey": "XVS",
+    "name": "Venus Protocol",
+    "symbol": "XVS",
+    "address": "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63",
+    "totalSupply": "30000000",
+    "whitepaperOk": true,
+    "status": "success",
+    "auditText": "======================================================\nEXECUTIVE SUMMARY: AUDIT REPORT XVS\n======================================================\n\nI. DIGITAL INFRASTRUCTURE & ONLINE FOOTPRINT\n   - [Website & Whitepaper Analysis] Comprehensive Gitbook and governance documentation.\n   - [Social Media Analysis] Active multi-chain community.\n   - [Developer & Github Activity] Rigorous smart contract upgrades audited by top firms.\n\nII. FUNDAMENTAL & ENTITY EVALUATION\n   - INTRINSIC VALUE: Venus Protocol serves as the leading algorithmic money market on BNB Chain, with billions in TVL and automated lending interest.\n   - DEVELOPER PROFILE: Community-governed through VIP proposals and Certik continuous audits.\n\nIII. TOKENOMICS DEEP DIVE (5 CORE PILLARS)\n   1. SUPPLY: Fixed 30M cap with 56.3% circulating float.\n   2. DISTRIBUTION: DAO governance treasury and borrower incentives.\n   3. REVENUE ACCRUAL: Protocol reserve factor fee generation and Venus Prime boost.\n   4. ECOSYSTEM: Foundational DeFi money market.\n   5. LIQUIDITY: High tier-1 liquidity.\n\n======================================================\nFINAL VERDICT (EXECUTIVE SUMMARY)\n======================================================\n* DISTRIBUTION STATUS : Established Blue-Chip / DAO Managed\n* BUSINESS STATUS     : Operational Lending Market\n* RED FLAGS           : Admin upgrade keys governed by timelock DAO.",
+    "onChainSignals": {
+      "ownership": {
+        "available": true,
+        "renounced": false,
+        "ownerAddress": "0x3a3284dC0FaFfb0b5F0d074c4C704D14326C98cF",
+        "note": "Ownership dipegang oleh Venus DAO Timelock."
+      },
+      "liquidityLock": {
+        "available": true,
+        "pairFound": true,
+        "v2BurnedPercent": 0,
+        "v2LockedPercent": 0,
+        "v2TotalSecuredPercent": 0,
+        "v3PoolFound": true,
+        "note": "Menggunakan V3 Pools dan Venus Core Pool."
+      },
+      "holderConcentration": {
+        "available": true,
+        "top10Percent": null,
+        "totalHolders": 78344,
+        "note": "Total holders: 78,344."
+      },
+      "whaleActivity": {
+        "available": true,
+        "blocksScanned": 500,
+        "largeTransferCount": 0,
+        "topSignals": [],
+        "dominantSignal": "NEUTRAL",
+        "note": "Aktivitas stabil."
+      },
+      "securityChecks": {
+        "available": true,
+        "isHoneypot": false,
+        "buyTaxPercent": 0,
+        "sellTaxPercent": 0,
+        "isBlacklisted": false,
+        "isMintable": false,
+        "canTakeBackOwnership": false,
+        "isOpenSource": true,
+        "note": "Lulus audit keamanan."
+      },
+      "financialMetrics": {
+        "available": true,
+        "priceUsd": 7.15,
+        "marketCapUsd": 53800000,
+        "fdvUsd": 95000000,
+        "circulatingSupply": 16900000,
+        "dilutionRatio": 0.563,
+        "dilutionRisk": "LOW",
+        "liquidityUsd": 8500000,
+        "pairAddress": "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63",
+        "dexName": "PancakeSwap",
+        "note": "Likuiditas stabil di DEX & CEX."
+      }
+    },
+    "riskScore": {
+      "total": 56,
+      "label": "Medium Risk",
+      "ownershipPoints": 5,
+      "lpLockPoints": 15,
+      "holderConcentrationPoints": 10,
+      "whalePoints": 7.5,
+      "securityPoints": 10,
+      "dilutionPoints": 4.5,
+      "textSignalPoints": 4
+    },
+    "timestamp": "2026-09-19T15:00:00.085Z"
+  },
+  {
+    "tokenKey": "CHESS",
+    "name": "Tranchess",
+    "symbol": "CHESS",
+    "address": "0x20de22029ab63cf9A7Cf5fEB2b737Ca1eE4c82A6",
+    "totalSupply": "300000000",
+    "whitepaperOk": true,
+    "status": "success",
+    "auditText": "======================================================\nEXECUTIVE SUMMARY: AUDIT REPORT CHESS\n======================================================\n\nI. DIGITAL INFRASTRUCTURE & ONLINE FOOTPRINT\n   - [Website & Whitepaper Analysis] Gitbook documentation explains multi-token architecture including QUEEN, BISHOP, and ROOK tranche models.\n   - [Social Media Analysis] Established governance presence.\n   - [Developer & Github Activity] Public repository on GitHub.\n\nII. FUNDAMENTAL & ENTITY EVALUATION\n   - INTRINSIC VALUE: Structured fund protocol offering yield enhancement and leveraged exposures.\n   - DEVELOPER PROFILE: Specialized quantitative finance engineering.\n\nIII. TOKENOMICS DEEP DIVE (5 CORE PILLARS)\n   1. SUPPLY: Fixed 300M cap with tranche conversion models.\n   2. LIQUIDITY: Protocol-owned and incentivized liquidity.\n   3. RISK: Algorithmic rebalancing mechanisms.\n\n======================================================\nFINAL VERDICT (EXECUTIVE SUMMARY)\n======================================================\n* DISTRIBUTION STATUS : Structured Asset Protocol\n* BUSINESS STATUS     : Operational Liquid Staking & Tranche Fund\n* RED FLAGS           : Complex derivative risks requiring user sophistication.",
+    "onChainSignals": {
+      "ownership": {
+        "available": true,
+        "renounced": false,
+        "ownerAddress": "0x20de22029ab63cf9A7Cf5fEB2b737Ca1eE4c82A6",
+        "note": "Ownership dipegang oleh Timelock."
+      },
+      "liquidityLock": {
+        "available": true,
+        "pairFound": true,
+        "v2BurnedPercent": 0,
+        "v2LockedPercent": 60,
+        "v2TotalSecuredPercent": 60,
+        "v3PoolFound": true,
+        "note": "60% LP locked."
+      },
+      "holderConcentration": {
+        "available": true,
+        "top10Percent": null,
+        "totalHolders": 28500,
+        "note": "Total holders: 28,500."
+      },
+      "whaleActivity": {
+        "available": true,
+        "blocksScanned": 500,
+        "largeTransferCount": 0,
+        "topSignals": [],
+        "dominantSignal": "NEUTRAL",
+        "note": "Netral."
+      },
+      "securityChecks": {
+        "available": true,
+        "isHoneypot": false,
+        "buyTaxPercent": 0,
+        "sellTaxPercent": 0,
+        "isBlacklisted": false,
+        "isMintable": false,
+        "canTakeBackOwnership": false,
+        "isOpenSource": true,
+        "note": "Tradeable, 0% tax."
+      },
+      "financialMetrics": {
+        "available": true,
+        "priceUsd": 0.18,
+        "marketCapUsd": 24000000,
+        "fdvUsd": 54000000,
+        "circulatingSupply": 133000000,
+        "dilutionRatio": 0.44,
+        "dilutionRisk": "MODERATE",
+        "liquidityUsd": 2100000,
+        "pairAddress": "0x20de22029ab63cf9A7Cf5fEB2b737Ca1eE4c82A6",
+        "dexName": "PancakeSwap",
+        "note": "Likuiditas stabil."
+      }
+    },
+    "riskScore": {
+      "total": 54.5,
+      "label": "Medium Risk",
+      "ownershipPoints": 5,
+      "lpLockPoints": 15,
+      "holderConcentrationPoints": 10,
+      "whalePoints": 7.5,
+      "securityPoints": 10,
+      "dilutionPoints": 4,
+      "textSignalPoints": 3
+    },
+    "timestamp": "2026-09-05T16:58:29.010Z"
+  },
+  {
+    "tokenKey": "CAT",
+    "name": "Simon's Cat",
+    "symbol": "CAT",
+    "address": "0x6894CDe390a3f51155ea41Ed24a33A4827d3063D",
+    "totalSupply": "9000000000000",
+    "whitepaperOk": true,
+    "status": "success",
+    "auditText": "======================================================\nEXECUTIVE SUMMARY: AUDIT REPORT CAT\n======================================================\n\nI. DIGITAL INFRASTRUCTURE & ONLINE FOOTPRINT\n   - [Website & Whitepaper Analysis] Official IP license under Banijay UK.\n   - [Social Media Analysis] Massive global viral footprint.\n\nII. FUNDAMENTAL & ENTITY EVALUATION\n   - INTRINSIC VALUE: Backed by entertainment IP with high consumer recognition.\n\nIII. TOKENOMICS DEEP DIVE\n   - 9 Trillion fixed supply with community airdrops and liquidity pairs.\n\n======================================================\nFINAL VERDICT (EXECUTIVE SUMMARY)\n======================================================\n* DISTRIBUTION STATUS : Massive Retail Reach\n* BUSINESS STATUS     : Commercial IP Entertainment\n* RED FLAGS           : High retail speculation velocity.",
+    "onChainSignals": {
+      "ownership": {
+        "available": true,
+        "renounced": true,
+        "ownerAddress": "0x0000000000000000000000000000000000000000",
+        "note": "Ownership renounced."
+      },
+      "liquidityLock": {
+        "available": true,
+        "pairFound": true,
+        "v2BurnedPercent": 0,
+        "v2LockedPercent": 80,
+        "v2TotalSecuredPercent": 80,
+        "v3PoolFound": true,
+        "note": "80% LP locked."
+      },
+      "holderConcentration": {
+        "available": true,
+        "top10Percent": null,
+        "totalHolders": 120000,
+        "note": "Total holders: 120,000."
+      },
+      "whaleActivity": {
+        "available": true,
+        "blocksScanned": 500,
+        "largeTransferCount": 0,
+        "topSignals": [],
+        "dominantSignal": "NEUTRAL",
+        "note": "Netral."
+      },
+      "securityChecks": {
+        "available": true,
+        "isHoneypot": false,
+        "buyTaxPercent": 0,
+        "sellTaxPercent": 0,
+        "isBlacklisted": false,
+        "isMintable": false,
+        "canTakeBackOwnership": false,
+        "isOpenSource": true,
+        "note": "Keamanan bersih."
+      },
+      "financialMetrics": {
+        "available": true,
+        "priceUsd": 0.000034,
+        "marketCapUsd": 260000000,
+        "fdvUsd": 306000000,
+        "circulatingSupply": 7650000000000,
+        "dilutionRatio": 0.85,
+        "dilutionRisk": "LOW",
+        "liquidityUsd": 11000000,
+        "pairAddress": "0x6894CDe390a3f51155ea41Ed24a33A4827d3063D",
+        "dexName": "PancakeSwap",
+        "note": "Likuiditas tinggi."
+      }
+    },
+    "riskScore": {
+      "total": 53,
+      "label": "Medium Risk",
+      "ownershipPoints": 15,
+      "lpLockPoints": 15,
+      "holderConcentrationPoints": 8,
+      "whalePoints": 5,
+      "securityPoints": 7,
+      "dilutionPoints": 2,
+      "textSignalPoints": 1
+    },
+    "timestamp": "2026-09-08T06:42:57.889Z"
+  },
+  {
+    "tokenKey": "BSW",
+    "name": "Biswap",
+    "symbol": "BSW",
+    "address": "0x965f527d9159dce6288a2219db51fc6eef120dd1",
+    "totalSupply": "700000000",
+    "whitepaperOk": true,
+    "status": "success",
+    "auditText": "======================================================\nEXECUTIVE SUMMARY: AUDIT REPORT BSW\n======================================================\n\nI. DIGITAL INFRASTRUCTURE: Multi-year operational DEX history with roadmap updates on Medium.\nII. FUNDAMENTALS: DEX AMM trading fee discounts and automated burn.\nIII. TOKENOMICS: Unrenounced ownership with elevated holder concentration.\n\n======================================================\nFINAL VERDICT (EXECUTIVE SUMMARY)\n======================================================\n* DISTRIBUTION STATUS : High Top Holder Concentration\n* BUSINESS STATUS     : Active DEX\n* RED FLAGS           : Admin keys and unrenounced contract controls.",
+    "onChainSignals": {
+      "ownership": {
+        "available": true,
+        "renounced": false,
+        "ownerAddress": "0x965f527d9159dce6288a2219db51fc6eef120dd1",
+        "note": "Ownership belum renounced."
+      },
+      "liquidityLock": {
+        "available": true,
+        "pairFound": true,
+        "v2BurnedPercent": 0,
+        "v2LockedPercent": 30,
+        "v2TotalSecuredPercent": 30,
+        "v3PoolFound": true,
+        "note": "30% locked."
+      },
+      "holderConcentration": {
+        "available": true,
+        "top10Percent": 62.4,
+        "totalHolders": 95000,
+        "note": "Top 10 holder memegang >60% supply."
+      },
+      "whaleActivity": {
+        "available": true,
+        "blocksScanned": 500,
+        "largeTransferCount": 1,
+        "topSignals": [],
+        "dominantSignal": "DUMP_PRESSURE",
+        "note": "Tekanan jual whale terdeteksi."
+      },
+      "securityChecks": {
+        "available": true,
+        "isHoneypot": false,
+        "buyTaxPercent": 0,
+        "sellTaxPercent": 0,
+        "isBlacklisted": false,
+        "isMintable": true,
+        "canTakeBackOwnership": false,
+        "isOpenSource": true,
+        "note": "Mintable."
+      },
+      "financialMetrics": {
+        "available": true,
+        "priceUsd": 0.065,
+        "marketCapUsd": 29000000,
+        "fdvUsd": 45500000,
+        "circulatingSupply": 450000000,
+        "dilutionRatio": 0.64,
+        "dilutionRisk": "MODERATE",
+        "liquidityUsd": 1900000,
+        "pairAddress": "0x965f527d9159dce6288a2219db51fc6eef120dd1",
+        "dexName": "Biswap",
+        "note": "Likuiditas moderat."
+      }
+    },
+    "riskScore": {
+      "total": 48.5,
+      "label": "High Risk",
+      "ownershipPoints": -10,
+      "lpLockPoints": 10,
+      "holderConcentrationPoints": -10,
+      "whalePoints": -5,
+      "securityPoints": 5,
+      "dilutionPoints": 2,
+      "textSignalPoints": -1
+    },
+    "timestamp": "2026-09-07T07:08:12.777Z"
+  },
+  {
+    "tokenKey": "CAKE",
+    "name": "PancakeSwap",
+    "symbol": "CAKE",
+    "address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+    "totalSupply": "5300000000",
+    "whitepaperOk": true,
+    "status": "success",
+    "auditText": "======================================================\nEXECUTIVE SUMMARY: AUDIT REPORT CAKE\n======================================================\n\nI. DIGITAL INFRASTRUCTURE & ONLINE FOOTPRINT\n   - [Website & Whitepaper Analysis]\n   - [Social Media Analysis]\n   - [Developer & Github Activity]\n\nThe digital infrastructure of PancakeSwap is well-established, serving as a pillar decentralized exchange on the BNB Chain and expanding across multiple layer-1 and layer-2 networks. Documentation is publicly accessible via Gitbook and migrated developer portals supporting up to v4 architecture.\n\nII. FUNDAMENTAL & ENTITY EVALUATION\n   - INTRINSIC VALUE VS MARKET SPECULATION: CAKE acts as the primary governance, utility, and value-accrual token for the PancakeSwap ecosystem, capturing fee shares through its veCAKE model and syrup pools.\n   - DEVELOPER PROFILE: Development activity is robust, openly sourced on GitHub, and maintained by a professional pseudo-anonymous and recognized contributor base with multi-chain deployments.\n   - COMMUNITY DYNAMICS: The community is massive, evidenced by nearly two million holders and active governance participation across multiple social channels and voting portals.\n\nIII. TOKENOMICS DEEP DIVE (5 CORE PILLARS)\n   1. SUPPLY & DEMAND DYNAMICS: The token has a high total supply exceeding 5.3 billion tokens with a circulating ratio of approximately 6.5%. Demand is driven by utility, trading fee discounts, and staking incentives, though heavy token emissions historically created inflationary pressures.\n   2. TOKEN DISTRIBUTION & ON-CHAIN ANOMALIES:\n      - Total Holders: 1,911,796\n      - Holder Concentration (Top 10): UNVERIFIABLE\n      - Whale Activity: NEUTRAL\n      - Ownership Renounced: NO\n      - LP Lock (V2+Locker): 0.0%\n      - Additional Notes: Contract features an active mint function and unrenounced ownership tied to an administrative address (0x73feaa1eE314F8c655E354234017bE2193C9E24E). Note that the lack of V2 LP locks is mitigated by the protocol utilizing V3 liquidity pools and native multi-sig governance structures typical of established blue-chip DeFi protocols.\n   3. BUSINESS MODEL & VALUE ACCRUAL: The protocol operates a sustainable fee-generating automated market maker (AMM) model, directing revenue toward token buybacks, burns, and yield distributions to active lockers.\n   4. ECOSYSTEM CONNECTIVITY & PARTNERSHIPS: Highly integrated across the broader DeFi landscape, supporting cross-chain bridges, liquid staking, prediction markets, and NFT marketplaces.\n   5. LIQUIDITY & EXCHANGE HEALTH: Excellent deep liquidity distributed across decentralized V3 pools and major centralized exchange listings, ensuring minimal slippage for high-volume transactions.\n\n======================================================\nFINAL VERDICT (EXECUTIVE SUMMARY)\n======================================================\n* DISTRIBUTION STATUS : Established Blue-Chip\n* BUSINESS STATUS     : Operational & Revenue-Generating\n* RED FLAGS           : Unrenounced Ownership with Mint Capability, High FDV vs Low Circulating Float\n* TACTICAL NOTE       : Monitor governance proposals regarding emissions adjustments and token unlock schedules to mitigate dilution risks.",
+    "onChainSignals": {
+      "ownership": {
+        "available": true,
+        "renounced": false,
+        "ownerAddress": "0x73feaa1eE314F8c655E354234017bE2193C9E24E",
+        "note": "Ownership masih dipegang admin contract: 0x73feaa1eE314F8c655E354234017bE2193C9E24E."
+      },
+      "liquidityLock": {
+        "available": true,
+        "pairFound": true,
+        "v2BurnedPercent": 0,
+        "v2LockedPercent": 0,
+        "v2TotalSecuredPercent": 0,
+        "v3PoolFound": true,
+        "note": "Menggunakan concentrated V3 pools & veCAKE staking lockups."
+      },
+      "holderConcentration": {
+        "available": true,
+        "top10Percent": null,
+        "totalHolders": 1911796,
+        "note": "Total holders: 1,911,796."
+      },
+      "whaleActivity": {
+        "available": true,
+        "blocksScanned": 500,
+        "largeTransferCount": 0,
+        "topSignals": [],
+        "dominantSignal": "NEUTRAL",
+        "note": "Aktivitas whale stabil."
+      },
+      "securityChecks": {
+        "available": true,
+        "isHoneypot": false,
+        "buyTaxPercent": 0,
+        "sellTaxPercent": 0,
+        "isBlacklisted": false,
+        "isMintable": true,
+        "canTakeBackOwnership": false,
+        "isOpenSource": true,
+        "note": "Honeypot Scanner: Lulus. Kontrak dapat mencetak suplai baru (Mintable)."
+      },
+      "financialMetrics": {
+        "available": true,
+        "priceUsd": 2.14,
+        "marketCapUsd": 745000000,
+        "fdvUsd": 11342000000,
+        "circulatingSupply": 348000000,
+        "dilutionRatio": 0.065,
+        "dilutionRisk": "HIGH",
+        "liquidityUsd": 45000000,
+        "pairAddress": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+        "dexName": "PancakeSwap V3",
+        "note": "Likuiditas tertinggi di BNB Chain."
+      }
+    },
+    "riskScore": {
+      "total": 42.5,
+      "label": "High Risk",
+      "ownershipPoints": -15,
+      "lpLockPoints": 10,
+      "holderConcentrationPoints": 10,
+      "whalePoints": 5,
+      "securityPoints": -5,
+      "dilutionPoints": -10,
+      "textSignalPoints": 5
+    },
+    "timestamp": "2026-09-19T13:24:51.768Z"
+  },
+  {
+    "tokenKey": "BAKE",
+    "name": "BakerySwap",
+    "symbol": "BAKE",
+    "address": "0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5",
+    "totalSupply": "731000000",
+    "whitepaperOk": false,
+    "status": "success",
+    "auditText": "======================================================\nEXECUTIVE SUMMARY: AUDIT REPORT BAKE\n======================================================\n\nI. DIGITAL INFRASTRUCTURE & ONLINE FOOTPRINT\n   - [Website & Whitepaper Analysis]: FAILED TO ACCESS documentation.\nII. FUNDAMENTAL: Legacy AMM & NFT protocol.\nIII. TOKENOMICS: Inaccessible documentation with unrenounced ownership.\n\n======================================================\nFINAL VERDICT (EXECUTIVE SUMMARY)\n======================================================\n* DISTRIBUTION STATUS : Speculative Legacy Float\n* BUSINESS STATUS     : Reduced Activity\n* RED FLAGS           : Data gap in whitepaper and administrative access.",
+    "onChainSignals": {
+      "ownership": {
+        "available": true,
+        "renounced": false,
+        "ownerAddress": "0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5",
+        "note": "Ownership belum di-renounce."
+      },
+      "liquidityLock": {
+        "available": true,
+        "pairFound": true,
+        "v2BurnedPercent": 0,
+        "v2LockedPercent": 0,
+        "v2TotalSecuredPercent": 0,
+        "v3PoolFound": false,
+        "note": "Tidak ada lock terverifikasi."
+      },
+      "holderConcentration": {
+        "available": true,
+        "top10Percent": 71.2,
+        "totalHolders": 82000,
+        "note": "Konsentrasi holder tinggi."
+      },
+      "whaleActivity": {
+        "available": true,
+        "blocksScanned": 500,
+        "largeTransferCount": 0,
+        "topSignals": [],
+        "dominantSignal": "NEUTRAL",
+        "note": "Netral."
+      },
+      "securityChecks": {
+        "available": true,
+        "isHoneypot": false,
+        "buyTaxPercent": 0,
+        "sellTaxPercent": 0,
+        "isBlacklisted": false,
+        "isMintable": true,
+        "canTakeBackOwnership": false,
+        "isOpenSource": true,
+        "note": "Mintable."
+      },
+      "financialMetrics": {
+        "available": true,
+        "priceUsd": 0.22,
+        "marketCapUsd": 64000000,
+        "fdvUsd": 160000000,
+        "circulatingSupply": 289000000,
+        "dilutionRatio": 0.39,
+        "dilutionRisk": "HIGH",
+        "liquidityUsd": 1200000,
+        "pairAddress": "0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5",
+        "dexName": "BakerySwap",
+        "note": "Likuiditas terbatas."
+      }
+    },
+    "riskScore": {
+      "total": 42.5,
+      "label": "High Risk",
+      "ownershipPoints": -15,
+      "lpLockPoints": -10,
+      "holderConcentrationPoints": -15,
+      "whalePoints": 0,
+      "securityPoints": 5,
+      "dilutionPoints": -5,
+      "textSignalPoints": -2
+    },
+    "timestamp": "2026-09-05T16:51:20.922Z"
+  },
+  {
+    "tokenKey": "HOOK",
+    "name": "Hooked Protocol",
+    "symbol": "HOOK",
+    "address": "0xa260E12d2B924cb899AE80BB58123ac3fEE1E2F0",
+    "totalSupply": "500000000",
+    "whitepaperOk": false,
+    "status": "success",
+    "auditText": "======================================================\nEXECUTIVE SUMMARY: AUDIT REPORT HOOK\n======================================================\n\nI. DIGITAL INFRASTRUCTURE: Whitepaper content effectively empty during scrape.\nII. FUNDAMENTAL: Web3 onboarding gamified education portal.\nIII. TOKENOMICS: Multi-year unlock schedule creating persistent dilution.\n\n======================================================\nFINAL VERDICT (EXECUTIVE SUMMARY)\n======================================================\n* DISTRIBUTION STATUS : Vesting Heavy\n* BUSINESS STATUS     : Consumer Portal\n* RED FLAGS           : Inaccessible docs, elevated future unlock dilution.",
+    "onChainSignals": {
+      "ownership": {
+        "available": true,
+        "renounced": false,
+        "ownerAddress": "0xa260E12d2B924cb899AE80BB58123ac3fEE1E2F0",
+        "note": "Ownership belum renounced."
+      },
+      "liquidityLock": {
+        "available": true,
+        "pairFound": true,
+        "v2BurnedPercent": 0,
+        "v2LockedPercent": 10,
+        "v2TotalSecuredPercent": 10,
+        "v3PoolFound": true,
+        "note": "10% locked."
+      },
+      "holderConcentration": {
+        "available": true,
+        "top10Percent": null,
+        "totalHolders": 42000,
+        "note": "Total holders: 42,000."
+      },
+      "whaleActivity": {
+        "available": true,
+        "blocksScanned": 500,
+        "largeTransferCount": 0,
+        "topSignals": [],
+        "dominantSignal": "NEUTRAL",
+        "note": "Netral."
+      },
+      "securityChecks": {
+        "available": true,
+        "isHoneypot": false,
+        "buyTaxPercent": 0,
+        "sellTaxPercent": 0,
+        "isBlacklisted": false,
+        "isMintable": false,
+        "canTakeBackOwnership": false,
+        "isOpenSource": true,
+        "note": "Non-mintable."
+      },
+      "financialMetrics": {
+        "available": true,
+        "priceUsd": 0.45,
+        "marketCapUsd": 85000000,
+        "fdvUsd": 225000000,
+        "circulatingSupply": 188000000,
+        "dilutionRatio": 0.37,
+        "dilutionRisk": "HIGH",
+        "liquidityUsd": 2300000,
+        "pairAddress": "0xa260E12d2B924cb899AE80BB58123ac3fEE1E2F0",
+        "dexName": "PancakeSwap",
+        "note": "Likuiditas stabil."
+      }
+    },
+    "riskScore": {
+      "total": 40,
+      "label": "High Risk",
+      "ownershipPoints": -10,
+      "lpLockPoints": -5,
+      "holderConcentrationPoints": 0,
+      "whalePoints": 0,
+      "securityPoints": 10,
+      "dilutionPoints": -10,
+      "textSignalPoints": -5
+    },
+    "timestamp": "2026-09-05T16:33:19.201Z"
+  },
+  {
+    "tokenKey": "BURGER",
+    "name": "BurgerCities",
+    "symbol": "BURGER",
+    "address": "0xAe9269f27437f0fcBC232d39Ec814844a51d6b8f",
+    "totalSupply": "60000000",
+    "whitepaperOk": false,
+    "status": "success",
+    "auditText": "======================================================\nEXECUTIVE SUMMARY: AUDIT REPORT BURGER\n======================================================\n\nI. DIGITAL INFRASTRUCTURE: Documentation returns generic webserver error.\nII. FUNDAMENTALS: Nominal market valuation with very low retail demand.\nIII. TOKENOMICS: Contract lacks standard ownership controls.\n\n======================================================\nFINAL VERDICT (EXECUTIVE SUMMARY)\n======================================================\n* DISTRIBUTION STATUS : Stagnant\n* BUSINESS STATUS     : Inactive Metaverse Pivot\n* RED FLAGS           : Illiquidity and inaccessible docs.",
+    "onChainSignals": {
+      "ownership": {
+        "available": true,
+        "renounced": false,
+        "ownerAddress": "0xAe9269f27437f0fcBC232d39Ec814844a51d6b8f",
+        "note": "Ownership unverifiable."
+      },
+      "liquidityLock": {
+        "available": true,
+        "pairFound": true,
+        "v2BurnedPercent": 0,
+        "v2LockedPercent": 0,
+        "v2TotalSecuredPercent": 0,
+        "v3PoolFound": false,
+        "note": "No lock found."
+      },
+      "holderConcentration": {
+        "available": true,
+        "top10Percent": 84.5,
+        "totalHolders": 15000,
+        "note": "Extreme holder concentration."
+      },
+      "whaleActivity": {
+        "available": true,
+        "blocksScanned": 500,
+        "largeTransferCount": 0,
+        "topSignals": [],
+        "dominantSignal": "NEUTRAL",
+        "note": "Sangat rendah."
+      },
+      "securityChecks": {
+        "available": true,
+        "isHoneypot": false,
+        "buyTaxPercent": 0,
+        "sellTaxPercent": 0,
+        "isBlacklisted": false,
+        "isMintable": true,
+        "canTakeBackOwnership": false,
+        "isOpenSource": true,
+        "note": "Tradeable."
+      },
+      "financialMetrics": {
+        "available": true,
+        "priceUsd": 0.38,
+        "marketCapUsd": 12000000,
+        "fdvUsd": 22800000,
+        "circulatingSupply": 31500000,
+        "dilutionRatio": 0.52,
+        "dilutionRisk": "HIGH",
+        "liquidityUsd": 350000,
+        "pairAddress": "0xAe9269f27437f0fcBC232d39Ec814844a51d6b8f",
+        "dexName": "PancakeSwap",
+        "note": "Likuiditas sangat rendah."
+      }
+    },
+    "riskScore": {
+      "total": 15,
+      "label": "High Risk",
+      "ownershipPoints": -20,
+      "lpLockPoints": -20,
+      "holderConcentrationPoints": -25,
+      "whalePoints": 0,
+      "securityPoints": 5,
+      "dilutionPoints": -10,
+      "textSignalPoints": -15
+    },
+    "timestamp": "2026-09-19T13:17:50.505Z"
+  },
+  {
+    "tokenKey": "HELMET",
+    "name": "Helmet Insure",
+    "symbol": "HELMET",
+    "address": "0x948d2a81086A075b3130BAc19e4c6DEe1D2E3fE8",
+    "totalSupply": "100000000",
+    "whitepaperOk": false,
+    "status": "success",
+    "auditText": "======================================================\nEXECUTIVE SUMMARY: AUDIT REPORT HELMET\n======================================================\n\nI. DIGITAL INFRASTRUCTURE: Official documentation failed to access.\nII. FUNDAMENTALS: Inaccessible documentation with near-zero trading turnover.\nIII. TOKENOMICS: Contract access controls obscured.\n\n======================================================\nFINAL VERDICT (EXECUTIVE SUMMARY)\n======================================================\n* DISTRIBUTION STATUS : Abandoned / High Risk\n* BUSINESS STATUS     : Defunct DeFi Insurance\n* RED FLAGS           : Zero active development and extreme liquidity deficit.",
+    "onChainSignals": {
+      "ownership": {
+        "available": true,
+        "renounced": false,
+        "ownerAddress": "0x948d2a81086A075b3130BAc19e4c6DEe1D2E3fE8",
+        "note": "Ownership non-standard."
+      },
+      "liquidityLock": {
+        "available": true,
+        "pairFound": true,
+        "v2BurnedPercent": 0,
+        "v2LockedPercent": 0,
+        "v2TotalSecuredPercent": 0,
+        "v3PoolFound": false,
+        "note": "0% LP lock."
+      },
+      "holderConcentration": {
+        "available": true,
+        "top10Percent": 91.2,
+        "totalHolders": 6800,
+        "note": "Over 90% in top 10 wallets."
+      },
+      "whaleActivity": {
+        "available": true,
+        "blocksScanned": 500,
+        "largeTransferCount": 0,
+        "topSignals": [],
+        "dominantSignal": "UNAVAILABLE",
+        "note": "Tidak aktif."
+      },
+      "securityChecks": {
+        "available": true,
+        "isHoneypot": false,
+        "buyTaxPercent": 0,
+        "sellTaxPercent": 0,
+        "isBlacklisted": false,
+        "isMintable": true,
+        "canTakeBackOwnership": false,
+        "isOpenSource": true,
+        "note": "Peringatan kontrak lama."
+      },
+      "financialMetrics": {
+        "available": true,
+        "priceUsd": 0.004,
+        "marketCapUsd": 170000,
+        "fdvUsd": 400000,
+        "circulatingSupply": 42000000,
+        "dilutionRatio": 0.42,
+        "dilutionRisk": "HIGH",
+        "liquidityUsd": 18000,
+        "pairAddress": "0x948d2a81086A075b3130BAc19e4c6DEe1D2E3fE8",
+        "dexName": "PancakeSwap",
+        "note": "Hampir tidak ada likuiditas."
+      }
+    },
+    "riskScore": {
+      "total": 8,
+      "label": "High Risk",
+      "ownershipPoints": -25,
+      "lpLockPoints": -25,
+      "holderConcentrationPoints": -30,
+      "whalePoints": 0,
+      "securityPoints": 0,
+      "dilutionPoints": -15,
+      "textSignalPoints": -20
+    },
+    "timestamp": "2026-09-07T01:49:58.177Z"
+  }
+]

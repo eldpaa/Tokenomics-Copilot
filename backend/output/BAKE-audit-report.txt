@@ -1,0 +1,48 @@
+═══════════════════════════════════════════════════════
+  TOKENOMICS COPILOT — EXECUTIVE AUDIT REPORT
+  Token: BAKE
+  Risk Score: 42.5/100
+  Generated: 2026-09-05T16:51:20.922Z
+  Storage: BNB Greenfield (gnfd://tokenomics-reports/BAKE-audit-report.txt)
+═══════════════════════════════════════════════════════
+
+======================================================
+EXECUTIVE SUMMARY: AUDIT REPORT BAKE
+======================================================
+
+I. DIGITAL INFRASTRUCTURE & ONLINE FOOTPRINT
+   - [Website & Whitepaper Analysis]: FAILED TO ACCESS. INSUFFICIENT DATA TO ANALYZE official documentation and whitepaper sources.
+   - [Social Media Analysis]: INSUFFICIENT DATA TO ANALYZE direct community pulse through official channels due to documentation access failure.
+   - [Developer & Github Activity]: INSUFFICIENT DATA TO ANALYZE commit histories, contributor metrics, and repository upkeep.
+
+II. FUNDAMENTAL & ENTITY EVALUATION
+   - INTRINSIC VALUE VS MARKET SPECULATION: The asset trades largely on historical narrative as an automated market maker and NFT platform on Binance Smart Chain, but current fundamental metrics remain obscured by lack of accessible documentation.
+   - DEVELOPER PROFILE: INSUFFICIENT DATA TO ANALYZE core team identities, historical track records, and cryptographic signatures.
+   - COMMUNITY DYNAMICS: Displays a broad holder base numbering 121,113 addresses, though short-term engagement is stifled as indicated by neutral whale activity over the recent 500-block observation window.
+
+III. TOKENOMICS DEEP DIVE (5 CORE PILLARS)
+   1. SUPPLY & DEMAND DYNAMICS: Total supply stands at 731,535,869.95 BAKE tokens. Inflationary mechanisms and emission schedules require further verification due to inaccessible documentation.
+   2. TOKEN DISTRIBUTION & ON-CHAIN ANOMALIES:
+      - Total Holders: 121,113
+      - Holder Concentration (Top 10): UNVERIFIABLE
+      - Whale Activity: NEUTRAL
+      - Ownership Renounced: NO
+      - LP Lock (V2+Locker): 0.1% total secured
+      - Additional Notes: Ownership is retained by address 0x20eC291bB8459b6145317E7126532CE7EcE5056f, presenting administrative risks regarding potential minting or blacklisting capabilities. Liquidity locking metrics indicate extremely low secure reserves with 0.0% burned and 0.1% in lockers, coupled with a detected V3 pool.
+   3. BUSINESS MODEL & VALUE ACCRUAL: Relies on decentralized exchange trading fees, liquidity provision incentives, and NFT marketplace participation, though exact capture mechanisms are unverified.
+   4. ECOSYSTEM CONNECTIVITY & PARTNERSHIPS: Historically positioned within the Binance Smart Chain ecosystem as an early generation DeFi protocol, but current integration depth needs updating.
+   5. LIQUIDITY & EXCHANGE HEALTH: Presence of V3 pools alongside V2 structures suggests fragmented liquidity that requires thorough depth analysis across trading pairs.
+
+======================================================
+FINAL VERDICT (EXECUTIVE SUMMARY)
+======================================================
+* DISTRIBUTION STATUS : Decentralized Holder Base with Centralized Control
+* BUSINESS STATUS     : Mature Legacy AMM / DEX Protocol
+* RED FLAGS           : Unrenounced contract ownership, critically low verified LP lock percentage, inaccessible official documentation.
+* TACTICAL NOTE       : Exercise extreme caution and limit exposure due to unrenounced administrative privileges and near-zero verifiable locked liquidity.
+
+═══════════════════════════════════════════════════════
+  END OF REPORT — Stored on BNB Greenfield
+  Bucket: tokenomics-reports
+  Visibility: Private (VIP Group Access Only)
+═══════════════════════════════════════════════════════

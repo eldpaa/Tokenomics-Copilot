@@ -1,0 +1,51 @@
+═══════════════════════════════════════════════════════
+  TOKENOMICS COPILOT — EXECUTIVE AUDIT REPORT
+  Token: CHESS
+  Risk Score: 54.5/100
+  Generated: 2026-09-05T16:58:29.010Z
+  Storage: BNB Greenfield (gnfd://tokenomics-reports/CHESS-audit-report.txt)
+═══════════════════════════════════════════════════════
+
+======================================================
+EXECUTIVE SUMMARY: AUDIT REPORT CHESS
+======================================================
+
+I. DIGITAL INFRASTRUCTURE & ONLINE FOOTPRINT
+   - [Website & Whitepaper Analysis]
+     The official documentation is hosted on Gitbook via docs.tranchess.com, demonstrating a structured overview of the protocol mechanics. The documentation outlines the multi-token architecture including QUEEN, BISHOP, ROOK, and CHESS, explaining their intended risk-return profiles. However, parts of the documentation indicate the last updates occurred over two years ago, requiring cautious validation regarding current active deployments.
+   - [Social Media Analysis]
+     Tranchess maintains an active digital footprint across multiple channels including Twitter (@tranchess), an English and Chinese Telegram group, a Discord server, a Medium blog, and an official Governance Forum. The community channels show historical engagement, though real-time retail velocity appears tempered.
+   - [Developer & Github Activity]
+     The core codebase repository is publicly accessible via GitHub at github.com/tranchess. While the repository confirms historical development of the protocol's smart contracts, recent commit frequency requires deeper on-chain verification.
+
+II. FUNDAMENTAL & ENTITY EVALUATION
+   - INTRINSIC VALUE VS MARKET SPECULATION: Tranchess derives its fundamental utility from asset-tracking tranches (QUEEN, BISHOP, ROOK) that cater to varying risk appetites, generating yield via underlying asset holding and farming CHESS. Market speculation primarily centers around the governance utility and veCHESS voting mechanics for weekly rebate pools.
+   - DEVELOPER PROFILE: The protocol was conceived by experienced developers building structured yield products inspired by traditional tranche funds, aiming to bring sophisticated asset allocation tools to decentralized finance.
+   - COMMUNITY DYNAMICS: Community structure is distributed across standard global channels with a focus on governance participation via the forum and veCHESS locking mechanisms.
+
+III. TOKENOMICS DEEP DIVE (5 CORE PILLARS)
+   1. SUPPLY & DEMAND DYNAMICS: The total supply is capped at 300,000,000 CHESS tokens. Demand is driven by protocol staking requirements, governance participation, and weekly rebate allocations across multiple asset pools (BTCB, ETH, BNB, BUSD).
+   2. TOKEN DISTRIBUTION & ON-CHAIN ANOMALIES:
+      - Total Holders: 17,532
+      - Holder Concentration (Top 10): UNVERIFIABLE - Holder list not available via standard basic scans — requires advanced querying.
+      - Whale Activity: NEUTRAL — No transfer events recorded in the last 500 blocks, indicating extremely low short-term transactional velocity.
+      - Ownership Renounced: UNVERIFIABLE - Contract does not expose a standard owner() function, indicating a custom access control or non-standard administrative setup.
+      - LP Lock (V2+Locker): burned=0.0%, locker=0.0%, total_secured=0.0%, V3 pool detected - V2 LP indicates zero tracked locks in standard lockers with V3 deployment presence.
+      - Additional Notes: The distribution relies heavily on historical farming emissions and multi-token utility splits.
+   3. BUSINESS MODEL & VALUE ACCRUAL: Value accrues to CHESS holders through the veCHESS model, where locking CHESS grants governance rights and a share of weekly protocol rebates. The multi-tiered product architecture (QUEEN, BISHOP, ROOK) generates internal protocol activity.
+   4. ECOSYSTEM CONNECTIVITY & PARTNERSHIPS: Tranchess integrates deeply with major decentralized exchange infrastructure like PancakeSwap and centralized platforms like Binance, alongside multi-asset support spanning Bitcoin, Ethereum, and Binance Coin ecosystems.
+   5. LIQUIDITY & EXCHANGE HEALTH: Liquidity is distributed across decentralized liquidity pools and external exchange listings, though on-chain metrics show a transition toward V3 liquidity dynamics alongside traditional pools.
+
+======================================================
+FINAL VERDICT (EXECUTIVE SUMMARY)
+======================================================
+* DISTRIBUTION STATUS : Established Multi-Token Yield Protocol
+* BUSINESS STATUS     : Operational with Moderate Maturity
+* RED FLAGS           : Low short-term on-chain transaction velocity, unverified top holder concentration, and non-standard ownership patterns.
+* TACTICAL NOTE       : Conduct thorough on-chain verification of contract access controls and V3 liquidity depth before deploying significant capital.
+
+═══════════════════════════════════════════════════════
+  END OF REPORT — Stored on BNB Greenfield
+  Bucket: tokenomics-reports
+  Visibility: Private (VIP Group Access Only)
+═══════════════════════════════════════════════════════

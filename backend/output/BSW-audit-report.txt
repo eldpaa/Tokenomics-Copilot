@@ -1,0 +1,49 @@
+═══════════════════════════════════════════════════════
+  TOKENOMICS COPILOT — EXECUTIVE AUDIT REPORT
+  Token: BSW
+  Risk Score: 48.5/100
+  Generated: 2026-09-07T07:08:12.777Z
+  Storage: BNB Greenfield (gnfd://tokenomics-reports/BSW-audit-report.txt)
+═══════════════════════════════════════════════════════
+
+======================================================
+EXECUTIVE SUMMARY: AUDIT REPORT BSW
+======================================================
+
+I. DIGITAL INFRASTRUCTURE & ONLINE FOOTPRINT
+   - [Website & Whitepaper Analysis]
+   - [Social Media Analysis]
+   - [Developer & Github Activity]
+
+The digital footprint of the protocol is established through active communication channels like Medium, demonstrating operational persistence spanning over three years in the decentralized finance niche. The communication strategy reflects steady updates, including roadmap revisions, monthly performance logs, and feature rollouts such as Voting 2.0. However, the documentation lacks a standalone, deeply technical whitepaper, relying instead on blog-format documentation and release notes.
+
+II. FUNDAMENTAL & ENTITY EVALUATION
+   - INTRINSIC VALUE VS MARKET SPECULATION: BSW serves as the utility and governance token for an established decentralized exchange operating primarily within the Binance Smart Chain ecosystem, anchoring its core demand to exchange fee discounts, liquidity mining incentives, and platform-specific utility functions.
+   - DEVELOPER PROFILE: The core development team has maintained continuous delivery over multiple years, navigating changing market conditions and introducing architectural upgrades like V3 liquidity pools and governance structures.
+   - COMMUNITY DYNAMICS: The community shows high engagement levels, evidenced by substantial holder counts and active participation in governance mechanisms, supported by structured communication and educational content.
+
+III. TOKENOMICS DEEP DIVE (5 CORE PILLARS)
+   1. SUPPLY & DEMAND DYNAMICS: The token economics rely on a circulating supply model tied to a total supply capped near 700 million tokens, driven by utility-based token sinks including trading fee reductions, stake-to-earn mechanisms, and platform buyback-and-burn structures.
+   2. TOKEN DISTRIBUTION & ON-CHAIN ANOMALIES:
+      - Total Holders: 167,906
+      - Holder Concentration (Top 10): UNVERIFIABLE
+      - Whale Activity: NEUTRAL
+      - Ownership Renounced: NO
+      - LP Lock (V2+Locker): 0.0%
+      - Additional Notes: The token contract ownership is retained by an administrative address rather than being renounced, and the on-chain liquidity metrics reflect a transition toward V3 pools alongside unverified or unmeasured V2 liquidity locks, presenting structural admin risks typical of upgradable DeFi protocols.
+   3. BUSINESS MODEL & VALUE ACCRUAL: Value accrual is derived from automated market maker fees, yield farming participation fees, and launchpad allocations, translating platform trading volume directly into sustained utility demand for the token.
+   4. ECOSYSTEM CONNECTIVITY & PARTNERSHIPS: The protocol maintains deep integration within the Binance Smart Chain ecosystem, collaborating with various yield aggregators, cross-chain bridges, and decentralized application partners.
+   5. LIQUIDITY & EXCHANGE HEALTH: Market liquidity is distributed across multiple decentralized and centralized trading venues, providing consistent depth, though on-chain liquidity parameters warrant ongoing monitoring due to the presence of V3 concentrated liquidity setups.
+
+======================================================
+FINAL VERDICT (EXECUTIVE SUMMARY)======================================================
+* DISTRIBUTION STATUS : Established Utility Token
+* BUSINESS STATUS     : Mature Decentralized Exchange
+* RED FLAGS           : Active admin keys retained on contract, zero tracked V2 LP lock, low short-term on-chain transfer velocity
+* TACTICAL NOTE       : Monitor admin key multi-sig migration status and V3 liquidity depth before allocating significant capital.
+
+═══════════════════════════════════════════════════════
+  END OF REPORT — Stored on BNB Greenfield
+  Bucket: tokenomics-reports
+  Visibility: Private (VIP Group Access Only)
+═══════════════════════════════════════════════════════
