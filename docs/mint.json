@@ -1,0 +1,44 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Tokenomics Copilot",
+  "logo": {
+    "dark": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/shield-check.svg",
+    "light": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/shield-check.svg"
+  },
+  "favicon": "/favicon.ico",
+  "colors": {
+    "primary": "#10B981",
+    "light": "#34D399",
+    "dark": "#059669"
+  },
+  "topbarLinks": [
+    {
+      "name": "Live dApp",
+      "url": "https://tokenomics-copilot.vercel.app"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "GitHub",
+    "url": "https://github.com/eldpaa/Tokenomics-Copilot"
+  },
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "introduction",
+        "quickstart",
+        "user-flow"
+      ]
+    },
+    {
+      "group": "On-Chain Architecture",
+      "pages": [
+        "smart-contract",
+        "architecture"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "github": "https://github.com/eldpaa/Tokenomics-Copilot"
+  }
+}

@@ -1,0 +1,61 @@
+---
+title: "Quickstart"
+description: "Start auditing BNB Smart Chain tokens in under 2 minutes."
+---
+
+# Quickstart Guide
+
+This guide will walk you through launching the Tokenomics Copilot web dApp and running your first on-chain audit.
+
+## Option 1: Live Web Application
+The easiest way to experience Tokenomics Copilot is through our hosted production deployment:
+👉 **[Launch Tokenomics Copilot dApp](https://tokenomics-copilot.vercel.app)**
+
+1. Connect your Web3 wallet (MetaMask, Trust Wallet, Rabby, or Coinbase Wallet) to **BNB Smart Chain Testnet** (Chain ID: `97`).
+2. Press **`/`** on your keyboard to open the Spotlight Search.
+3. Select an active token (e.g. **$CAKE**, **$BAKE**, or **$BABYDOGE**) or paste any verified BEP-20 contract address.
+4. View the instant mathematical risk score and AI fundamental summary.
+
+---
+
+## Option 2: Run Locally (Developers)
+
+### 1. Clone the Monorepo
+```bash
+git clone https://github.com/eldpaa/Tokenomics-Copilot.git
+cd Tokenomics-Copilot
+```
+
+### 2. Install Dependencies
+```bash
+# Install root & backend dependencies
+bun install
+
+# Install frontend dependencies
+cd frontend1
+bun install
+cd ..
+```
+
+### 3. Setup Environment Variables
+Create a `.env` file in the root directory:
+```env
+PORT=3000
+GEMINI_API_KEY=your_gemini_api_key_here
+BNB_RPC_URL=https://data-seed-prebsc-1-s1.binance.org:8545/
+CONTRACT_ESCROW_ADDRESS=0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D
+```
+
+### 4. Start the Development Servers
+In Terminal 1 (Backend API):
+```bash
+bun run server
+```
+
+In Terminal 2 (Vite Frontend):
+```bash
+cd frontend1
+bun run dev
+```
+
+Visit `http://localhost:5173` in your browser.

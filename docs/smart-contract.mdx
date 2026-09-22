@@ -1,0 +1,67 @@
+---
+title: "Smart Contract"
+description: "TokenomicsAuditEscrow contract specifications, deployed address, and BscScan verification."
+---
+
+# Smart Contract Architecture
+
+Tokenomics Copilot utilizes an on-chain smart contract deployed on **BNB Smart Chain Testnet** to handle audit access requests, record immutable audit events, and process micropayments.
+
+## Deployment Details
+
+| Property | Value |
+| :--- | :--- |
+| **Network** | BNB Smart Chain Testnet |
+| **Chain ID** | `97` |
+| **Contract Name** | `TokenomicsAuditEscrow` |
+| **Contract Address** | `0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D` |
+| **BscScan Explorer** | [View on BscScan Testnet](https://testnet.bscscan.com/address/0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D) |
+| **Compiler Version** | Solidity `^0.8.20` |
+| **Audit Fee** | `0.001 tBNB` |
+
+---
+
+## Contract Interface & Functions
+
+### `payForAudit(string calldata tokenSymbol)`
+Accepts an on-chain micropayment of `0.001 tBNB`. Generates a unique `auditHash` and records the payment in contract storage while emitting the `AuditPaid` event.
+
+```solidity
+function payForAudit(string calldata tokenSymbol) external payable {
+    require(msg.value >= auditFee, "TokenomicsAuditEscrow: insufficient audit fee (min 0.001 BNB)");
+
+    bytes32 auditHash = keccak256(
+        abi.encodePacked(msg.sender, tokenSymbol, block.timestamp, block.prevrandao)
+    );
+
+    verifiedAudits[auditHash] = true;
+    userAuditCounts[msg.sender] += 1;
+
+    emit AuditPaid(msg.sender, tokenSymbol, msg.value, block.timestamp, auditHash);
+}
+```
+
+### `isAuditVerified(bytes32 auditHash)`
+A view function allowing external dApps, DEXes, or wallets to verify whether an audit was legitimately paid for and recorded on BNB Chain.
+
+```solidity
+function isAuditVerified(bytes32 auditHash) external view returns (bool) {
+    return verifiedAudits[auditHash];
+}
+```
+
+---
+
+## Event Signatures
+
+```solidity
+event AuditPaid(
+    address indexed user,
+    string indexed tokenSymbol,
+    uint256 feePaid,
+    uint256 timestamp,
+    bytes32 auditHash
+);
+```
+
+By indexing the `AuditPaid` event, our backend API instantly receives notification of payment from the BNB Chain node without requiring polling or centralized payment processors.
