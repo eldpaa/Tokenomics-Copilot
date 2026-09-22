@@ -16,7 +16,7 @@
 | Resource | Target Link | Description |
 | :--- | :--- | :--- |
 | 🚀 **Live dApp** | [Launch Web Application](https://tokenomics-copilot.vercel.app) | Production frontend on BNB Smart Chain |
-| 📖 **Documentation** | [docs.tokenomics-copilot.xyz](https://docs.tokenomics-copilot.xyz) | Full Mintlify interactive docs portal |
+| 📖 **Documentation** | [uni-046fa477.mintlify.site](https://uni-046fa477.mintlify.site) | Full Mintlify interactive docs portal |
 | 🎥 **Demo Video** | [Watch 3-Min Pitch Video](https://youtu.be/fNKD4S2iWVw) | Problem, live walkthrough & architecture |
 | 📜 **Smart Contract** | [`0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D`](https://testnet.bscscan.com/address/0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D) | Verified Escrow contract on BscScan Testnet |
 | 💻 **Source Code** | [GitHub Repository](https://github.com/eldpaa/Tokenomics-Copilot) | Public open-source monorepo |
