@@ -1,0 +1,337 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Space Black Titanium (iPhone 16 Pro Theme) - OLED Black & Deep Obsidian */
+    --background: 240 10% 3.5%;       /* #08080B OLED Space Black */
+    --foreground: 0 0% 98%;           /* #FAFAFA Pure Clean White */
+
+    --card: 240 6% 7%;                /* #111215 Titanium Glass Surface */
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 6% 8%;             /* #141519 */
+    --popover-foreground: 0 0% 98%;
+
+    /* Pure Titanium Silver High-Contrast Accent (Zero Loud Blue/Green) */
+    --primary: 0 0% 98%;              /* Pure Titanium Crisp Accent */
+    --primary-foreground: 240 10% 4%; /* Deep Obsidian on White */
+
+    --secondary: 240 5% 12%;          /* #1D1E22 Subtle Titanium Inset */
+    --secondary-foreground: 0 0% 92%;
+
+    --muted: 240 5% 12%;
+    --muted-foreground: 240 4% 60%;   /* #9496A1 Titanium Silver Neutral */
+
+    --accent: 240 5% 16%;             /* Subtle Titanium Highlight */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 70% 55%;         /* Muted iOS Coral Red */
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 240 4% 13%;             /* Hairline Titanium Border */
+    --input: 240 4% 13%;
+    --ring: 0 0% 98% / 0.15;
+
+    --radius: 1rem;                   /* 16px Apple Squircle */
+
+    /* Emil Kowalski & Apple Motion Easing Tokens */
+    --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+    --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+    --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+    --ease-spring: cubic-bezier(0.2, 0.9, 0.25, 1);
+    --ease-apple-spring: cubic-bezier(0.2, 0.9, 0.25, 1);
+  }
+
+  /* Luxury Option 1: Space Black (Default Active) */
+  [data-theme="space-black"] {
+    --background: 240 10% 3.5%;
+    --foreground: 0 0% 98%;
+    --card: 240 6% 7%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 10% 4%;
+    --border: 240 4% 13%;
+  }
+
+  /* Luxury Option 2: Natural Titanium & Warm Champagne Platinum */
+  [data-theme="natural-titanium"] {
+    --background: 30 6% 4%;           /* Warm Deep Obsidian */
+    --foreground: 40 10% 96%;         /* Warm Linen White */
+    --card: 30 5% 8%;                 /* Warm Titanium Satin */
+    --primary: 38 25% 90%;            /* Champagne Warm Platinum */
+    --primary-foreground: 30 6% 4%;
+    --border: 30 5% 15%;
+  }
+
+  /* Luxury Option 3: Smoked Graphite & Cyber-Stealth */
+  [data-theme="smoked-graphite"] {
+    --background: 220 8% 3%;          /* Darkest Smoked Carbon */
+    --foreground: 220 10% 96%;        /* Frosted Silver */
+    --card: 220 8% 6.5%;              /* Cold Gunmetal Glass */
+    --primary: 220 12% 92%;           /* Cold Titanium Steel */
+    --primary-foreground: 220 10% 4%;
+    --border: 220 7% 13%;
+  }
+
+  .dark {
+    --background: 240 10% 3.5%;
+    --foreground: 0 0% 98%;
+    --card: 240 6% 7%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 6% 8%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 10% 4%;
+    --secondary: 240 5% 12%;
+    --secondary-foreground: 0 0% 92%;
+    --muted: 240 5% 12%;
+    --muted-foreground: 240 4% 60%;
+    --accent: 240 5% 16%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 4% 13%;
+    --input: 240 4% 13%;
+    --ring: 0 0% 98% / 0.15;
+  }
+}
+
+@layer base {
+  html {
+    scrollbar-gutter: stable;
+    overflow-y: scroll;
+  }
+
+  /* Sleek Apple-style Sub-Pixel Scrollbar (Zero Layout Shift) */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 9999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.25);
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased selection:bg-primary/20 selection:text-primary;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Apple Titanium & Vision Glass Utilities */
+@layer utilities {
+  .titanium-card {
+    background-color: rgba(18, 19, 23, 0.75);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.12), 0 16px 36px -8px rgba(0, 0, 0, 0.6);
+  }
+
+  .titanium-pill {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
+  }
+
+  .active-press {
+    transition: transform 160ms cubic-bezier(0.16, 1, 0.3, 1), opacity 140ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .active-press:active {
+    transform: scale(0.975);
+    transition: transform 70ms cubic-bezier(0.23, 1, 0.32, 1), opacity 70ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+}
+
+/* Snappy, Sub-220ms Apple-like Page Transition */
+@keyframes pageIn {
+  from {
+    opacity: 0;
+    transform: scale(0.99) translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.page-transition {
+  animation: pageIn 200ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Apple Search Spotlight Container */
+.apple-search-container {
+  transform-origin: center top;
+  transition: background-color 200ms var(--ease-out),
+              box-shadow 300ms var(--ease-apple-spring),
+              border-color 200ms var(--ease-out);
+  will-change: box-shadow, background-color;
+}
+
+/* Apple Search Spotlight Fluid Dropdown Panel */
+.apple-search-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  pointer-events: none;
+  transform-origin: top center;
+  transition: grid-template-rows 240ms var(--ease-out),
+              opacity 200ms var(--ease-out);
+  will-change: grid-template-rows, opacity;
+}
+
+.apple-search-panel.is-open {
+  grid-template-rows: 1fr;
+  opacity: 1;
+  pointer-events: auto;
+  transition: grid-template-rows 300ms var(--ease-apple-spring),
+              opacity 240ms var(--ease-out);
+}
+
+/* Apple Search Spotlight Content Fade */
+.apple-search-content {
+  opacity: 0;
+  transition: opacity 190ms var(--ease-out);
+  will-change: opacity;
+}
+
+.apple-search-content.is-open {
+  opacity: 1;
+  transition: opacity 240ms var(--ease-out);
+}
+
+/* Apple Spotlight Token Item Interactive States */
+.apple-token-item {
+  transition: background-color 140ms ease-out, border-color 140ms ease-out, box-shadow 140ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .apple-search-container {
+    animation: none !important;
+    transform: none !important;
+    transition: background-color 80ms ease-out, box-shadow 80ms ease-out !important;
+  }
+  .apple-search-panel {
+    transition: opacity 80ms ease-out !important;
+  }
+  .apple-search-content {
+    transition: opacity 80ms ease-out !important;
+    transform: none !important;
+    filter: none !important;
+  }
+  .apple-token-item {
+    transition: opacity 80ms ease-out !important;
+    transform: none !important;
+  }
+}
+
+/* SVG stroke transition */
+.hover-draw {
+  stroke-dasharray: 100;
+  transition: stroke-dashoffset 240ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .hover-draw:hover {
+    stroke-dashoffset: 0;
+  }
+}
+
+.active-draw {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 0;
+}
+
+/* Luxury Apple Sonar Radar Pulse */
+@keyframes appleRadar {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.6);
+    opacity: 0.15;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+.animate-apple-radar {
+  animation: appleRadar 2.2s cubic-bezier(0.23, 1, 0.32, 1) infinite;
+}
+
+/* Apple Intelligence Shimmer Beam & Neural Breathe Keyframes */
+@keyframes appleShimmer {
+  0% {
+    transform: translateX(-120%) skewX(-15deg);
+  }
+  100% {
+    transform: translateX(250%) skewX(-15deg);
+  }
+}
+
+.animate-apple-shimmer {
+  animation: appleShimmer 2.4s cubic-bezier(0.23, 1, 0.32, 1) infinite;
+}
+
+@keyframes appleNeuralBreathe {
+  0%, 100% {
+    transform: scale(0.98);
+    opacity: 0.65;
+  }
+  50% {
+    transform: scale(1.03);
+    opacity: 0.95;
+  }
+}
+
+.animate-neural-breathe {
+  animation: appleNeuralBreathe 2.6s ease-in-out infinite;
+}
+
+/* Apple Intelligence Step Text Crossfade Keyframes */
+@keyframes appleStepIn {
+  0% {
+    opacity: 0;
+    transform: translateY(3px) scale(0.98);
+    filter: blur(2px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+.animate-apple-step-in {
+  animation: appleStepIn 260ms cubic-bezier(0.2, 0.9, 0.25, 1) forwards;
+}
+
+/* Global Accessibility - Honor prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
